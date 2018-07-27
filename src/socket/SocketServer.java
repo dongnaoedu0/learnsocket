@@ -28,5 +28,6 @@ public class SocketServer {
     inputStream.close();
     socket.close();
     server.close();
+    System.out.println("这个不是hotfix");
   }
 }
