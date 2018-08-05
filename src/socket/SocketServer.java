@@ -28,8 +28,5 @@ public class SocketServer {
     inputStream.close();
     socket.close();
     server.close();
-    System.out.println("这个不是hotfix");
-    System.out.println("这是hotfix");
-    System.out.println("删掉两个语句");
   }
 }
