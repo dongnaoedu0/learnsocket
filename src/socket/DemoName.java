@@ -1,14 +1,15 @@
 package socket;
 
-public class demo {
+public class DemoName {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello demo");
+	private String name;
 
-
+	public String getName() {
+		return name;
 	}
-	public int add(int a,int b) {
-		return a+b;		
+
+	public void setName(String name) {
+		this.name = name;
 	}
+	
 }
