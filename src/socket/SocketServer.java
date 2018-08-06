@@ -30,6 +30,5 @@ public class SocketServer {
     inputStream.close();
     socket.close();
     server.close();
-    System.out.println("Ã·ΩªµΩgithub");
   }
 }
