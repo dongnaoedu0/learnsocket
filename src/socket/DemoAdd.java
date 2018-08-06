@@ -6,7 +6,7 @@ public class DemoAdd {
 		//add method
 		System.out.println("add method");
 		add(3, 3);
-		//¼Ó·¨ a+b
+		//sum a+b
 
 	}
 	private static void add(int a,int b) {
