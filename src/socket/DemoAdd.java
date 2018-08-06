@@ -3,7 +3,8 @@ package socket;
 public class DemoAdd {
 
 	public static void main(String[] args) {
-		System.out.println("加法运算");
+		//add method
+		System.out.println("add method");
 		add(3, 3);
 		//加法 a+b
 
