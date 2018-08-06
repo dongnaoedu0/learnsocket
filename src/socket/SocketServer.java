@@ -13,8 +13,10 @@ public class SocketServer {
     
     // server将一直等待连接的到来
     System.out.println("server将一直等待连接的到来");
-    
-    System.out.println("添加注释master");
+
+    System.out.println("添加注释master+dev");
+
+
     Socket socket = server.accept();
     // 建立好连接后，从socket中获取输入流，并建立缓冲区进行读取
     InputStream inputStream = socket.getInputStream();
